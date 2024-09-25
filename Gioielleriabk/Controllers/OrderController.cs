@@ -16,6 +16,8 @@ namespace Gioielleriabk.Controllers
             _orderService = orderService;
         }
 
+        // POST: api/Order
+
         [HttpPost]
         public async Task<IActionResult> CreateOrder([FromForm] Order order)
         {
